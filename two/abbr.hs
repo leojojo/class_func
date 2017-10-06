@@ -1,7 +1,10 @@
-main = do cs <- getContents
-          putStr $ nLines 10 cs
-          putStrLn "..."
-          putStr $ nLines 10 $ takeLast 10 cs
+{-
+  Name: Leo Fujita
+  Student ID: 71575612
+-}
 
-nLines n cs = unlines $ take n $ lines cs
+main = do cs <- getContents
+          putStr $ takeFirst 5 cs ++ "...\n" ++ takeLast 5 cs
+
+takeFirst n cs = unlines $ take n $ lines cs
 takeLast n cs = unlines $ reverse $ take n $ reverse $ lines cs
