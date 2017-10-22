@@ -1,4 +1,5 @@
 AK	Alaska	Juneau
+LOL	Araska	Juneau
 AL	Alabama	Montgomery
 AR	Arkansas	Little Rock
 AZ	Arizona	Phoenix
